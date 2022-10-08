@@ -86,7 +86,6 @@ guess_again:
 invalid_input:
     lea     rcx, [invalid_message]
     call    printf
-    nop
     jmp     guess_again
     
 smaller:
